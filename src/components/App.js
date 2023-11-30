@@ -5,6 +5,7 @@ import converterStore from "../store/converterStore";
 function App() {
   return (
 		<div className='App'>
+			<Header converterStore={converterStore} />
 			<Converter converterStore={converterStore} />
 		</div>
 	)

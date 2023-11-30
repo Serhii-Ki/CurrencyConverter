@@ -1,0 +1,13 @@
+.header {
+    height: 80px;
+    width: 100%;
+    background-color: rgb(4, 4, 37);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    & .currency {
+        display: flex;
+        column-gap: 30px;
+    }
+}
